@@ -1,0 +1,210 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #aee2ff, #90caf9);
+  color: #0a1f44;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.app-container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1100px; /* Increased container width */
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* White title */
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Stronger shadow for clarity */
+}
+
+.app-title {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Input Card */
+.input-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 750px; /* Increased width for better spacing */
+  margin: 0 auto;
+}
+
+/* Input Fields */
+input, select {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+  background-color: #f0f9ff;
+  color: #0a1f44;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus {
+  border-color: #64b5f6;
+  background-color: #e3f2fd;
+}
+
+/* Error Text */
+.error {
+  color: #ff4d4f;
+  font-size: 13px;
+  text-align: left;
+  margin-top: -10px;
+}
+
+/* Interest Section */
+.interest-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.interest-section input {
+  flex: 1;
+}
+
+.interest-section button {
+  padding: 10px 16px;
+  background-color: #64b5f6;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.interest-section button:hover {
+  background-color: #42a5f5;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: #d2ecff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #002244;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.remove-tag {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  color: #555555; /* Styled small, not red */
+}
+
+/* Button */
+.suggest-btn {
+  margin-top: 10px;
+  background: linear-gradient(to right, #64b5f6, #42a5f5);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.suggest-btn:hover {
+  background: linear-gradient(to right, #42a5f5, #2196f3);
+}
+
+/* Loading Text */
+.loading-text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Response Box */
+.response-box {
+  margin-top: 30px;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  max-width: 500px;
+  width: 90%;
+  color: #0d1b2a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* Gift Title */
+.gift-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a1f44;
+  margin-bottom: 10px;
+}
+
+/* Explanation */
+.gift-explanation {
+  font-size: 18px;
+  font-style:italic
+  line-height: 1.6;
+  color: #333c56;
+}
+
+/* Divider */
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 12px 0;
+}
+
+/* Error message */
+.error-message {
+  color: #d32f2f;
+  font-weight: 500;
+}

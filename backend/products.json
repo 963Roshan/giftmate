@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Bluetooth Speaker",
+      "category": "Tech",
+      "price": 1499,
+      "description": "Portable wireless speaker with rich sound.",
+      "link": "https://www.amazon.in/dp/B09XYZ1234",
+      "image": "https://example.com/speaker.jpg"
+    },
+    {
+      "name": "Leather Notebook",
+      "category": "Stationery",
+      "price": 699,
+      "description": "Premium leather-bound notebook for journaling.",
+      "link": "https://www.amazon.in/dp/B07NOTE123",
+      "image": "https://example.com/notebook.jpg"
+    },
+    {
+      "name": "Smart Watch",
+      "category": "Tech",
+      "price": 2999,
+      "description": "Smartwatch with heart rate monitoring.",
+      "link": "https://www.amazon.in/dp/B08WATCH123",
+      "image": "https://example.com/watch.jpg"
+    },
+    {
+      "name": "Scented Candles Set",
+      "category": "Home Decor",
+      "price": 899,
+      "description": "Relaxing scented candles in a gift box.",
+      "link": "https://www.amazon.in/dp/B09CANDLE456",
+      "image": "https://example.com/candles.jpg"
+    },
+    {
+      "name": "Personalized Mug",
+      "category": "Custom",
+      "price": 499,
+      "description": "Custom mug with name or photo print.",
+      "link": "https://www.amazon.in/dp/B07MUG321",
+      "image": "https://example.com/mug.jpg"
+    }
+  ]
+  
