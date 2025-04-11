@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.post('/generate', async (req, res) => {
   const { name, relationship, interests, occasion, budget } = req.body;
 
-  const prompt = `Suggest a single gift (no links) for the following person. Keep the response short and JSON formatted like this:
+  const prompt = `Suggest a single quirky and thoughtful gift (no links) with an Indian GenZ twist for the following person. Keep the response short and in this JSON format:
 {
   "gift": "Gift Name",
   "explanation": "Very short explanation"
