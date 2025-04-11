@@ -60,7 +60,7 @@ function App() {
     setLoading(true);
     setResponse(null);
     try {
-      const res = await axios.post("http://localhost:5000/generate", {
+      const res = await axios.post("https://giftmate-backend.onrender.com/generate", {
         name: formData.name,
         relationship:
           formData.relationship === "Other"
